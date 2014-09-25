@@ -13,8 +13,10 @@ Some of the settings require external tools. Here's list of packages to install 
 Start using this setup
 ======================
 
-`git clone git@github.com:ikke-t/vim.git ~/.vim
-ln -s ~/.git/vimrc ~/.vimrc`
+```
+git clone git@github.com:ikke-t/vim.git ~/.vim
+ln -s ~/.git/vimrc ~/.vimrc
+```
 
 The Plugins
 ===========
