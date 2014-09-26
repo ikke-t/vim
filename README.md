@@ -7,7 +7,7 @@ Additional Packages
 
 Some of the settings require external tools. Here's list of packages to install on Fedora:
 
-`sudo yum install vim-enhanced vim-command-t syntastic`
+`sudo yum install vim-enhanced vim-command-t syntastic ack`
 
 
 Start using this setup
