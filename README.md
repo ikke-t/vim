@@ -27,6 +27,7 @@ The Plugins
 - **syntastic**:       do syntax check on file after saving it (write)
 - **lusty explorer**:  do funky magic finding files and grepping stuff from them
 - **command-t**:       find files by listing letters of their names
+- **ack.vim**:         grep like search addition
 
 
 Examples
@@ -37,4 +38,5 @@ Examples
 - **grep variables** from open buffers:  `\lb <pattern>`
 - weird ending of the **file open**:     `\lf <pattern>`
 - open different **buffer**:             `\b`
+- **search** for stuff:                  `Ack foobar ~/src/project`
 
