@@ -14,7 +14,7 @@ Start using this setup
 ======================
 
 ```
-git clone git@github.com:ikke-t/vim.git ~/.vim
+git clone --recurse-submodules git@github.com:ikke-t/vim.git ~/.vim
 ln -s ~/.git/vimrc ~/.vimrc
 ```
 
