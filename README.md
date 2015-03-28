@@ -29,6 +29,7 @@ The Plugins
 - **command-t**:       find files by listing letters of their names
 - **ack.vim**:         grep like search addition
 - **nerdcommenter**:   easily comment/uncomment stuff
+- **vim-fugitive**:    git helper for vim
 
 For more information about the plugins, see submodules of the bundle dir.
 They all have their own readme files.
@@ -44,5 +45,5 @@ Examples
 - Open different **buffer**:             `\b`
 - **Search** for stuff:                  `Ack foobar ~/src/project`
 - **Comment / uncomment** block:         `\cl` / `\cu`
-
+- **Git commit**:                        `:Gcommit`
 
