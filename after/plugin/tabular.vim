@@ -11,6 +11,7 @@ set cpo&vim
 
 AddTabularPattern! asterisk /*/l1
 AddTabularPattern! block /=>
+AddTabularPattern! first_equal /^[^=]*\zs=
 
 AddTabularPipeline! remove_leading_spaces /^ /
                 \ map(a:lines, "substitute(v:val, '^ *', '', '')")
