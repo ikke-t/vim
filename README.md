@@ -18,6 +18,15 @@ git clone --recurse-submodules git@github.com:ikke-t/vim.git ~/.vim
 ln -s ~/.git/vimrc ~/.vimrc
 ```
 
+For Command-t, if you don't find it from your packet repos (e.g. RHEL8),
+you need to:
+
+```
+cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
+ruby extconf.rb
+make
+```
+
 The Plugins
 ===========
 
