@@ -25,3 +25,6 @@
 [submodule "bundle/ansible-vim"]
 	path = bundle/ansible-vim
 	url = git@github.com:pearofducks/ansible-vim.git
+[submodule "bundle/vim-code-dark"]
+	path = bundle/vim-code-dark
+	url = https://github.com/tomasiser/vim-code-dark.git
