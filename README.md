@@ -15,7 +15,7 @@ Start using this setup
 
 ```
 git clone --recurse-submodules git@github.com:ikke-t/vim.git ~/.vim
-ln -s ~/.git/vimrc ~/.vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
 For Command-t, if you don't find it from your packet repos (e.g. RHEL8),
@@ -23,6 +23,7 @@ you need to:
 
 ```
 cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
+sudo dnf install -y ruby-devel
 ruby extconf.rb
 make
 ```
