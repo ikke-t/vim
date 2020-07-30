@@ -28,6 +28,13 @@ ruby extconf.rb
 make
 ```
 
+Updating the git repo
+=====================
+
+```
+git submodule update --recursive --remote
+```
+
 The Plugins
 ===========
 
