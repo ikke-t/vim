@@ -35,6 +35,21 @@ Updating the git repo
 git submodule update --recursive --remote
 ```
 
+For some reason the git submodule sometimes bring old versions. So
+after cloning this repo, get the latest versions of plugins:
+
+```
+git submodule foreach git pull origin master
+```
+
+To add new submodule
+====================
+
+```
+git submodule add https://github.com/davidhalter/jedi-vim.git bundle/jedi-vim
+```
+
+
 The Plugins
 ===========
 
@@ -47,6 +62,7 @@ The Plugins
 - **ack.vim**:         grep like search addition
 - **nerdcommenter**:   easily comment/uncomment stuff
 - **vim-fugitive**:    git helper for vim
+- **jedi-vim**:        python autocomplete
 
 For more information about the plugins, see submodules of the bundle dir.
 They all have their own readme files.
