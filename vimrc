@@ -44,14 +44,23 @@ set smartcase
 set incsearch
 set hidden "lusty explorer wants this
 
+" ansible plugin
+let g:ansible_extra_keywords_highlight = 1
+let g:ansible_unindent_after_newline = 1
+let g:ansible_yamlKeyName = 'yamlKey'
+let g:ansible_attribute_highlight = "ob"
+au BufRead,BufNewFile */playbooks/*.yml set filetype=yaml.ansible
+
 " syntastic
-let g:syntastic_yaml_checkers=['yamllint']
 let g:syntastic_ansible_checkers=['ansible_lint']
+let g:syntastic_yaml_checkers=['yamllint']
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_jump = 1
+
+
 " autocmd BufNewFile,BufRead *.yml set filetype=ansible
 
 " fix yaml to get identified right. Commented out due having ansible plugin

@@ -28,3 +28,6 @@
 [submodule "bundle/vim-code-dark"]
 	path = bundle/vim-code-dark
 	url = https://github.com/tomasiser/vim-code-dark.git
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
