@@ -62,3 +62,7 @@ let g:syntastic_auto_jump = 1
 "augroup END
 
 colorscheme codedark
+
+" Nerdcommenter, align left and add space
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
