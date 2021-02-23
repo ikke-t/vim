@@ -63,6 +63,7 @@ The Plugins
 - **nerdcommenter**:   easily comment/uncomment stuff
 - **vim-fugitive**:    git helper for vim
 - **jedi-vim**:        python autocomplete
+- **fzf**              fzf fuzzy search plugin
 
 For more information about the plugins, see submodules of the bundle dir.
 They all have their own readme files.
@@ -79,4 +80,5 @@ Examples
 - **Search** for stuff:                  `Ack foobar ~/src/project`
 - **Comment / uncomment** block:         `\cl` / `\cu`
 - **Git commit**:                        `:Gcommit`
-
+- **Fuzzy open new file with preview**:  `:Files`
+- **Fuzzy search line in buffer**:       `:LBuffer`
